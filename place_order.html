@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register form</title>
+    <link rel="stylesheet" href="CSS/main.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Nova+Script|Open+Sans|Pacifico" rel="stylesheet">
+</head>
+
+<body background="images/1.png">
+<div id = "main">
+
+    <nav>
+
+        <img src="images/logo.jpg">
+
+
+        <ul>
+            <li class="active"><a href="index.html"><i class="fas fa-house-damage"></i> HOME  </a> </li>
+            <li><a href= "customer_management.html" ><i class="fas fa-file-alt"></i> CUSTOMER MANAGEMENT  </a> </li>
+            <li><a href= "item_management.html"><i class="fas fa-money-check-alt"></i> ITEM MANAGEMENT</a> </li>
+            <li><a href= "place_order.html"><i class="fas fa-truck-loading"></i> PLACE ORDER</a> </li>
+
+        </ul>
+
+    </nav>
+
+    <div class="box">
+
+        <form style="margin-top: 10px">
+            <input type="text" id="tt" placeholder="Search a ITEM">
+            <input type="submit" id="sub" value="search">
+        </form>
+    </div>
+    <div class="form">
+        <form id="registration">
+            <fieldset>
+                <legend id="title"><i class="fas fa-item"></i> PLACE ORDER<i class="fas fa-item"></i></legend>
+                <input type="text" name="fname" id="button" placeholder="Date"><br><br>
+                <input type="text" name="lname" id="button" placeholder="Order ID"><br><br>
+                <input type="text" name="adress" id="button" placeholder="Customer Name/ID"><br><br>
+
+                <input type="text" name="adress" id="button" placeholder="Customer Mobile No"><br><br>
+                <input type="text" name="adress" id="button" placeholder="Item ID"><br><br>
+                <input type="text" name="adress" id="button" placeholder="Quantity"><br><br>
+                <input type="text" name="adress" id="button" placeholder="Price"><br><br>
+
+
+
+
+        <button style="background-color: #6D4C41;color: #EFEBE9;border: solid white;font-size: 25px;font-weight: bold">Place Order</button>
+
+
+
+
+
+            </fieldset>
+        </form>
+    </div>
+
+    <table style="width:100%; border: 1px solid white; border-collapse: collapse;border-spacing: 5px; margin-bottom: 100px;font-size: 25px;font-weight: bold;color: white;margin-top: 50px;background-color: #6D4C41">
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+
+        </tr>
+
+    </table>
+
+    <div class="form">
+        <form id="r">
+            <fieldset>
+
+                <input type="text" name="fname" id="button" placeholder="Cash"><br><br>
+                <input type="text" name="lname" id="button" placeholder="Balance"><br><br>
+                <input type="text" name="adress" id="button" placeholder="Discount"><br><br>
+
+
+
+
+
+
+
+                <span class="label success" style="font-size: 25px; background-color: #EFEBE9;color: #3E2723;font-weight: bold">Total: 000.00/=</span>
+
+
+
+
+
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="btn-group" style="float: right;margin-bottom: 50px;margin-top: 10px;font-size: 20px;font-weight: bold">
+        <button>Clear</button>
+        <button>Renew Order</button>
+        <button>Submit Order</button>
+
+    </div>
+
+
+
+
+</body>
+</html>
